@@ -17,7 +17,7 @@ export default function Header({}) {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/add-post" className="p-4 hover:bg-colorPrimaryDarker">
+                        <Link href="/posts/add-post" className="p-4 hover:bg-colorPrimaryDarker">
                             افزودن پست
                         </Link>
                     </li>
