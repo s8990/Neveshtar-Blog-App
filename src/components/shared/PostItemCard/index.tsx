@@ -12,7 +12,7 @@ export const PostItemCard = ({post}: PropsType) => {
     const {title, view, created_at} = post;
 
     return (
-        <div className="border rounded-lg p-2 md:p-4">
+        <div className="border rounded-lg p-2 md:p-4 shadow-sm">
             <Link href={`/posts/${post?.slug}`}>
                 <h1 className="text-gray-700 font-black">{title}</h1>
             </Link>
