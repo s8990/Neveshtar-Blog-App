@@ -41,7 +41,7 @@ export default function AddPost() {
     });
 
     return (
-        <form onSubmit={formik.handleSubmit}>
+        <form onSubmit={formik.handleSubmit} className="container max-w-md">
             <h4 className="font-semibold text-lg">افزودن پست</h4>
 
                 <TextInput
