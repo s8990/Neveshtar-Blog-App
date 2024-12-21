@@ -18,3 +18,10 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Packages
+
+- `tailwindcss` => utility-first CSS framework
+- `react-icons` => icons
+- `formik` => form library
+- `yup` =>  schema builder for runtime value parsing and validation
