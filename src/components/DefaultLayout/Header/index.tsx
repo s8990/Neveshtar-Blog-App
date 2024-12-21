@@ -10,14 +10,14 @@ export default function Header({}) {
                     </Link>
                 </div>
 
-                <ul className="sm:flex-1 flex flex-col sm:flex-row sm:items-center gap-2">
+                <ul className="sm:flex-1 sm:flex sm:flex-row sm:items-center">
                     <li>
-                        <Link href="/" className="p-4 hover:bg-colorPrimaryDarker">
+                        <Link href="/" className="inline-block w-full p-4 hover:bg-colorPrimaryDarker">
                             پست ها
                         </Link>
                     </li>
                     <li>
-                        <Link href="/posts/add-post" className="p-4 hover:bg-colorPrimaryDarker">
+                        <Link href="/posts/add-post" className="inline-block w-full p-4 hover:bg-colorPrimaryDarker">
                             افزودن پست
                         </Link>
                     </li>
