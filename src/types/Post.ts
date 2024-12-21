@@ -59,3 +59,9 @@ export type PostDetailsType = [{
         }
     ]
 }];
+
+export type CreatePostType = {
+    title: string;
+    body: string;
+    userId: number;
+};
