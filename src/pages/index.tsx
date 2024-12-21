@@ -7,7 +7,6 @@ export const getServerSideProps = (async () => {
     // Fetch data from external API
     const res = await fetch('https://json.xstack.ir/api/v1/posts');
     const posts: PostsResponseType = await res.json();
-    console.log("posts :: ", posts);
     // Pass data to the page via props
     return { props: { posts } }
 }) satisfies GetServerSideProps<{ posts: PostsResponseType }>
