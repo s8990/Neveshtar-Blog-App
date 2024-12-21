@@ -11,7 +11,12 @@ export default {
       fontFamily: {
         sans: ["vazir", ...fontFamily.sans]
       },
-      colors: {},
+      colors: {
+        colorPrimary: "var(--color-primary)",
+        colorPrimaryDarker: "var(--color-primary-darker)",
+        colorPrimaryDarkest: "var(--color-primary-darkest)",
+        colorPrimaryForeground: "var(--color-primary-foreground)",
+      },
     },
   },
   plugins: [],
