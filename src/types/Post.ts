@@ -32,3 +32,30 @@ export type PostsResponseType =  {
     to: number;
     total: number;
 }
+
+export type PostDetailsType = [{
+    id: number;
+    title: string;
+    slug: string;
+    body: string;
+    view: number;
+    user_id: number;
+    created_at: string;
+    updated_at?: string;
+    user: {
+        id: number;
+        name: string;
+        email: string;
+        email_verified_at: string;
+        created_at: string;
+        updated_at: string;
+    },
+    comments: [
+        {
+            "id": number;
+            "body": string;
+            "created_at": string;
+            "updated_at": string;
+        }
+    ]
+}];
