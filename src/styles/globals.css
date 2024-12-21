@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("font.css");
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-family: "vazir";
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  font-family: var(--font-family);
 }

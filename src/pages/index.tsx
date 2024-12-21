@@ -6,7 +6,7 @@ export default function Home() {
         <Head>
             <title>وبلاگ نوشتار</title>
         </Head>
-      <h1>به وبلاگ نوشتار خوش آمدید</h1>
+      <h1 className="text-gray-700 font-bold text-xl">به وبلاگ نوشتار خوش آمدید</h1>
     </div>
   );
 }
