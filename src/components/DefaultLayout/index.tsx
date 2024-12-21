@@ -9,7 +9,7 @@ export default function DefaultLayout({ children }: PropsType) {
     return (
         <>
             <Header />
-            <main>{children}</main>
+            <main className="container p-4">{children}</main>
             <Footer />
         </>
     )
